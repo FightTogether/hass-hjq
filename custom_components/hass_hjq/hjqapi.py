@@ -226,6 +226,6 @@ class HJQApi:
 
 
 if __name__ == "__main__":
-    api = HJQApi(tel="13926201252", pwd="why26201252")
+    api = HJQApi(tel="", pwd="")
     print(api.get_api_key())
     #asyncio.run(api.main())
